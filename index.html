@@ -41,7 +41,7 @@ for Windows PCs and Android phones and tablets.</p>
 <li>Crokinole has no accounts of its own. You do not sign up, and we do not ask for your name, email address or
   any contact details.</li>
 <li>There are no ads and no analytics in the app. We do not sell data.</li>
-<li>Your hand and head movements are used on your device to move your hands and your avatar. If you play online,
+<li>Your hand, head and body movements are used on your device to move your hands and your avatar. If you play online,
   the other players at your table receive your avatar's movements and, unless you mute your microphone, your
   voice, live. Voice passes through the multiplayer provider's servers and is not recorded.</li>
 <li>Your settings and progress are stored on your device only.</li>
@@ -50,10 +50,14 @@ for Windows PCs and Android phones and tablets.</p>
   They process some data to make it work, described below.</li>
 </ul>
 <h2>What the app processes, and why</h2>
-<h3>Movement data (hands, head)</h3>
+<h3>Movement data (hands, head, body)</h3>
 <p>To let you play with your hands, the app reads the positions of your hands, fingers and head from the device.
 This is used on the device to drive the physics hands, the menus and your avatar. It is not stored.</p>
-<p>When you sit at an online table, the pose of your avatar (head, hands and fingers, as a compact stream) and the
+<p>Your avatar has a full body. On headsets with body tracking, and if you grant the system's body-tracking
+permission, the app reads the device's estimate of where your body's joints are and uses the positions of your
+feet to place the avatar's legs. This happens on the device and is not stored. If you refuse the permission, or
+the device is not sure where your feet are, the app stands the avatar's feet on the floor below you instead.</p>
+<p>When you sit at an online table, the pose of your avatar (head, hands, fingers, body and legs, as a compact stream) and the
 positions of the discs you move are sent through the multiplayer service to the other players at the same
 table, so that they can see you play. It is sent live and is not kept by us.</p>
 <p>The flat-screen version uses a mouse or a touch screen and reads no movement data.</p>
@@ -152,7 +156,7 @@ United States, under their own terms and privacy policies.</p>
 <ul>
 <li>Play offline: the tutorial, the computer opponent and the practice table send nothing to the multiplayer
   service.</li>
-<li>Refuse or revoke permissions (microphone, eye tracking, spatial data) in the device settings. The app keeps
+<li>Refuse or revoke permissions (microphone, eye tracking, body tracking, spatial data) in the device settings. The app keeps
   working without them, with the related feature off.</li>
 <li>Mute your microphone, or mute other players, in the settings panel.</li>
 <li>Use a private table with a code if you do not want to meet strangers.</li>
@@ -166,7 +170,7 @@ unless we must keep it by law.</p>
 <h2>Your rights</h2>
 <p>If you are in the European Economic Area, the United Kingdom or another place with similar law, you have the
 right to ask for access to your personal data, to have it corrected or deleted, to restrict or object to its
-use, and to data portability. Where we rely on your permission (microphone, eye tracking, spatial data), you
+use, and to data portability. Where we rely on your permission (microphone, eye tracking, body tracking, spatial data), you
 can withdraw it at any time in the device settings. You can also complain to your data protection authority.
 Ours is the Hellenic Data Protection Authority (<a href="https://www.dpa.gr">https://www.dpa.gr</a>).</p>
 <p>Legal bases: we process movement, voice and table data to provide the game you asked to play (performance of a
