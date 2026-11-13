@@ -79,6 +79,9 @@ running, so that you can rejoin.</p>
 account and to load your Meta Avatar. For this the app receives from Meta an identifier for your account in
 this app and an access token for the avatar service. We use them only for these purposes, on the device and in
 calls to Meta's services. We do not store them on servers of our own.</p>
+<p>When you sit at an online table, that identifier is sent through the multiplayer service to the other players
+at the same table, so that their devices can load your avatar from Meta. The access token is never sent to
+other players.</p>
 <p>If your Meta Avatar is not available, the app gives you one of its preset avatars. The appearance of your
 avatar and the parlour outfit you choose are shown to the other players at your table.</p>
 <h3>"Same room" play (shared spatial anchors)</h3>
@@ -123,7 +126,7 @@ cameras, or recordings of your voice. The app has no advertising, no analytics a
 <tr>
 <td>Normcore multiplayer service</td>
 <td>Normal (Normal VR, Inc.), United States</td>
-<td>Room name with the table code, your avatar's pose stream, disc and game state, live voice audio, connection data such as your IP address</td>
+<td>Room name with the table code, your avatar's pose stream, the identifier of your Meta account in this app (to load your avatar), disc and game state, live voice audio, connection data such as your IP address</td>
 <td>To connect the players at a table. Normal's privacy policy: <a href="https://normcore.io/privacy">https://normcore.io/privacy</a></td>
 </tr>
 <tr>
