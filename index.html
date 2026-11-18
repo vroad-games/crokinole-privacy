@@ -31,7 +31,7 @@ footer { margin-top: 3rem; color: var(--soft); font-size: .9em; }
 <body>
 <main>
 <h1>Crokinole privacy policy</h1>
-<p><strong>Effective date:</strong> 13 November 2026</p>
+<p><strong>Effective date:</strong> 18 November 2026</p>
 <p><strong>App:</strong> Crokinole (package id <code>com.VRoadGames.Crokinole</code>) for Meta Quest headsets, and its flat-screen version
 for Windows PCs and Android phones and tablets.</p>
 <p><strong>Who we are:</strong> VRoad Games, the trading name of Christos Lougiakis, an individual developer in Athens, Greece ("we").</p>
@@ -44,6 +44,8 @@ for Windows PCs and Android phones and tablets.</p>
 <li>Your hand, head and body movements are used on your device to move your hands and your avatar. If you play online,
   the other players at your table receive your avatar's movements and, unless you mute your microphone, your
   voice, live. Voice passes through the multiplayer provider's servers and is not recorded.</li>
+<li>In mixed reality the app reads the layout of your room and, if you allow it, the headset camera, to place
+  and light the board. This happens on your device. No picture of your room is stored or sent.</li>
 <li>Your settings and progress are stored on your device only.</li>
 <li>If you report a player, the report is stored on your device only. Nobody receives it yet.</li>
 <li>Online play runs on services operated by other companies (Normal for multiplayer, Meta for the platform).
@@ -70,7 +72,8 @@ permission, the app uses the direction of your head. You can leave the LOOK mode
 modes do not use eye tracking.</p>
 <h3>Voice</h3>
 <p>At online tables, if you grant the microphone permission, your voice is sent live through the multiplayer
-service to the other players at the same table. We do not record or store voice. You can mute your own
+service to the other players at the same table. The app also works out mouth shapes from your voice, on the
+device, so that your avatar's mouth moves; they travel with the avatar's movements. We do not record or store voice. You can mute your own
 microphone, and you can mute any other player, in the settings panel.</p>
 <p>Other players can hear what you say, and we cannot control what they do with what they hear.</p>
 <h3>Tables and table codes</h3>
@@ -88,6 +91,19 @@ at the same table, so that their devices can load your avatar from Meta. The acc
 other players.</p>
 <p>If your Meta Avatar is not available, the app gives you one of its preset avatars. The appearance of your
 avatar and the parlour outfit you choose are shown to the other players at your table.</p>
+<h3>Your room (mixed reality)</h3>
+<p>If you turn passthrough on (Meta Quest 3 and 3S), and you grant the system's spatial data permission, the app
+reads the room layout your headset has stored: the positions and sizes of walls, floor, ceiling, tables and
+other furniture, as simple shapes. It uses them on the device to stand the board on a real table and to lay out
+decoration on your walls, floor and tables. The layout is not stored by the app and is not sent to us or to
+other players. To find the board again where you left it, the app saves a spatial anchor on the headset and
+keeps its identifier in its settings.</p>
+<p>The app also uses the headset's depth sensing, on the device, so that real things and your hands can hide
+virtual ones. Depth data is not stored or sent.</p>
+<p>If you grant the headset camera permission, the app reads small, low-resolution camera frames a few times a
+second and reduces each at once to a handful of average colours, to light the board like your room. The frames
+are processed on the device, are never stored and are never sent anywhere. If you refuse, the board is lit with
+a neutral light.</p>
 <h3>"Same room" play (shared spatial anchors)</h3>
 <p>If you use the "Same room" feature, the device creates a spatial anchor, which is a reference point in your
 physical space, and shares it through Meta's services with the other players who join the same group, so that
@@ -115,7 +131,7 @@ stay on the device unless you choose to share them with us. The app does not sen
 statistics to us.</p>
 <h3>What we do not collect</h3>
 <p>We do not collect your name, email address, contacts, location, payment details, images from the device's
-cameras, or recordings of your voice. The app has no advertising, no analytics and no in-app purchases.</p>
+cameras, the layout of your room, or recordings of your voice. The app has no advertising, no analytics and no in-app purchases.</p>
 <h2>Who else processes data</h2>
 <div class="table"><table>
 <thead>
@@ -147,7 +163,7 @@ cameras, or recordings of your voice. The app has no advertising, no analytics a
 United States, under their own terms and privacy policies.</p>
 <h2>How long data is kept</h2>
 <ul>
-<li>Movement, gaze and voice data: not stored by us. It exists only while it is being used or sent.</li>
+<li>Movement, gaze, voice, room and camera data: not stored by us. It exists only while it is being used or sent.</li>
 <li>Table state: until the table closes.</li>
 <li>Reports, settings and progress: on your device until you uninstall the app or clear its data.</li>
 <li>Data held by Normal or Meta: as their policies say.</li>
@@ -156,7 +172,8 @@ United States, under their own terms and privacy policies.</p>
 <ul>
 <li>Play offline: the tutorial, the computer opponent and the practice table send nothing to the multiplayer
   service.</li>
-<li>Refuse or revoke permissions (microphone, eye tracking, body tracking, spatial data) in the device settings. The app keeps
+<li>Refuse or revoke permissions (microphone, eye tracking, body tracking, spatial data, headset camera) in the
+  device settings. The app keeps
   working without them, with the related feature off.</li>
 <li>Mute your microphone, or mute other players, in the settings panel.</li>
 <li>Use a private table with a code if you do not want to meet strangers.</li>
@@ -170,7 +187,7 @@ unless we must keep it by law.</p>
 <h2>Your rights</h2>
 <p>If you are in the European Economic Area, the United Kingdom or another place with similar law, you have the
 right to ask for access to your personal data, to have it corrected or deleted, to restrict or object to its
-use, and to data portability. Where we rely on your permission (microphone, eye tracking, body tracking, spatial data), you
+use, and to data portability. Where we rely on your permission (microphone, eye tracking, body tracking, spatial data, headset camera), you
 can withdraw it at any time in the device settings. You can also complain to your data protection authority.
 Ours is the Hellenic Data Protection Authority (<a href="https://www.dpa.gr">https://www.dpa.gr</a>).</p>
 <p>Legal bases: we process movement, voice and table data to provide the game you asked to play (performance of a
